@@ -81,9 +81,9 @@ Flow Accounting comes in different "editions" to suit your environment:
 
 | File | Edition | Best For... |
 | :--- | :--- | :--- |
-| **[index.html](index.html)** | **Offline (Default)** | Maximum privacy and reliability. Loads all assets (Tailwind, Chart.js, etc.) from the local `assets/` folder. Works completely without internet. |
-| **[Online.html](Online.html)** | **Web Ready (CDN)** | Quick deployment on static hosts (GitHub Pages, Vercel). Fetches libraries via high-speed CDNs. No local assets required. |
-| **[simple.html](simple.html)** | **Lightweight** | Users who want a clutter-free experience. Removes complex features like Banking, Credit Cards, and Budgets, focusing on core Cash tracking. |
+| **[index.html](https://dyal96.github.io/flow/index.html)** | **Offline (Default)** | Maximum privacy and reliability. Loads all assets (Tailwind, Chart.js, etc.) from the local `assets/` folder. Works completely without internet. |
+| **[Online.html](https://dyal96.github.io/flow/Online.html)** | **Web Ready (CDN)** | Quick deployment on static hosts (GitHub Pages, Vercel). Fetches libraries via high-speed CDNs. No local assets required. |
+| **[simple.html](https://dyal96.github.io/flow/simple.html)** | **Lightweight** | Users who want a clutter-free experience. Removes complex features like Banking, Credit Cards, and Budgets, focusing on core Cash tracking. |
 
 ---
 
@@ -138,4 +138,5 @@ You can also run Flow Accounting in a Docker container:
 ---
 
 *Flow Accounting is a project by Dyal.*
+
 
