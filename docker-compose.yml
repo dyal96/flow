@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  flow-accounting:
+    build: .
+    image: flow-accounting:latest
+    container_name: flow-accounting
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    volumes:
+       # Optional: Mount a volume if we ever move to server-side storage
+       # For now, data is in LocalStorage (browser), so no server volume needed for data.
+       - ./index.html:/usr/share/nginx/html/index.html:ro
