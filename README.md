@@ -1,9 +1,10 @@
-# 🌊 Flow Accounting (Personal Edition)
+# 🌊 Flow Accounting (Personal Edition) 
 
 **Flow Accounting** is a premium, single-file personal finance application designed for privacy, speed, and ease of use. Built with a "local-first" philosophy, your financial data never leaves your device and is encrypted securely in your browser.
 
 ![Dashboard Preview](https://github.com/dyal96/flow/blob/main/demo/screenshot.jpg)
 
+⚠ This a Prototype version - so i'm not Responsible for any data loss. 
 ## ✨ Key Features
 
 ### 🔒 Privacy & Security
@@ -138,5 +139,6 @@ You can also run Flow Accounting in a Docker container:
 ---
 
 *Flow Accounting is a project by Dyal.*
+
 
 
