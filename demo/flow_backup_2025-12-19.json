@@ -1,0 +1,701 @@
+{
+  "user": {
+    "name": "Demo User",
+    "currency": "INR"
+  },
+  "accounts": [
+    {
+      "id": "acc_cash_001",
+      "name": "Wallet",
+      "type": "asset",
+      "openingBalance": 5000,
+      "notes": "Daily cash expenses"
+    },
+    {
+      "id": "acc_bank_001",
+      "name": "HDFC Savings",
+      "type": "asset",
+      "openingBalance": 150000,
+      "notes": "Primary savings account"
+    },
+    {
+      "id": "acc_bank_002",
+      "name": "SBI Salary",
+      "type": "asset",
+      "openingBalance": 50000,
+      "notes": "Salary credited here"
+    },
+    {
+      "id": "acc_cc_001",
+      "name": "HDFC Regalia",
+      "type": "credit_card",
+      "openingBalance": 0,
+      "notes": "Primary credit card",
+      "billingDay": 15,
+      "gracePeriod": 20,
+      "limit": 200000
+    },
+    {
+      "id": "acc_cc_002",
+      "name": "Amazon Pay ICICI",
+      "type": "credit_card",
+      "openingBalance": 0,
+      "notes": "Online shopping",
+      "billingDay": 5,
+      "gracePeriod": 18,
+      "limit": 100000
+    },
+    {
+      "id": "acc_person_001",
+      "name": "Rahul (Friend)",
+      "type": "general",
+      "openingBalance": 0,
+      "notes": "Borrowed/Lent money"
+    },
+    {
+      "id": "acc_person_002",
+      "name": "Mom",
+      "type": "general",
+      "openingBalance": 0,
+      "notes": "Family transfers"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Salary",
+      "type": "income"
+    },
+    {
+      "id": "c2",
+      "name": "Freelance",
+      "type": "income"
+    },
+    {
+      "id": "c3",
+      "name": "Investment Returns",
+      "type": "income"
+    },
+    {
+      "id": "c4",
+      "name": "Food & Dining",
+      "type": "expense"
+    },
+    {
+      "id": "c5",
+      "name": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "c6",
+      "name": "Shopping",
+      "type": "expense"
+    },
+    {
+      "id": "c7",
+      "name": "Entertainment",
+      "type": "expense"
+    },
+    {
+      "id": "c8",
+      "name": "Utilities",
+      "type": "expense"
+    },
+    {
+      "id": "c9",
+      "name": "Groceries",
+      "type": "expense"
+    },
+    {
+      "id": "c10",
+      "name": "Healthcare",
+      "type": "expense"
+    },
+    {
+      "id": "c11",
+      "name": "Education",
+      "type": "expense"
+    },
+    {
+      "id": "c12",
+      "name": "Rent",
+      "type": "expense"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_001",
+      "type": "income",
+      "amount": 85000,
+      "date": "2025-10-01",
+      "desc": "October Salary",
+      "accountId": "acc_bank_002",
+      "category": "c1",
+      "categoryName": "Salary"
+    },
+    {
+      "id": "tx_002",
+      "type": "expense",
+      "amount": 25000,
+      "date": "2025-10-01",
+      "desc": "October Rent",
+      "accountId": "acc_bank_001",
+      "category": "c12",
+      "categoryName": "Rent"
+    },
+    {
+      "id": "tx_003",
+      "type": "expense",
+      "amount": 5500,
+      "date": "2025-10-02",
+      "desc": "Grocery - BigBasket",
+      "accountId": "acc_cc_002",
+      "category": "c9",
+      "categoryName": "Groceries"
+    },
+    {
+      "id": "tx_004",
+      "type": "expense",
+      "amount": 1200,
+      "date": "2025-10-03",
+      "desc": "Uber rides",
+      "accountId": "acc_cash_001",
+      "category": "c5",
+      "categoryName": "Transport"
+    },
+    {
+      "id": "tx_005",
+      "type": "expense",
+      "amount": 850,
+      "date": "2025-10-04",
+      "desc": "Lunch with friends",
+      "accountId": "acc_cc_001",
+      "category": "c4",
+      "categoryName": "Food & Dining"
+    },
+    {
+      "id": "tx_006",
+      "type": "expense",
+      "amount": 2499,
+      "date": "2025-10-05",
+      "desc": "Netflix + Spotify",
+      "accountId": "acc_cc_001",
+      "category": "c7",
+      "categoryName": "Entertainment"
+    },
+    {
+      "id": "tx_007",
+      "type": "expense",
+      "amount": 3500,
+      "date": "2025-10-07",
+      "desc": "Electricity Bill",
+      "accountId": "acc_bank_001",
+      "category": "c8",
+      "categoryName": "Utilities"
+    },
+    {
+      "id": "tx_008",
+      "type": "expense",
+      "amount": 1500,
+      "date": "2025-10-08",
+      "desc": "Mobile Recharge",
+      "accountId": "acc_cash_001",
+      "category": "c8",
+      "categoryName": "Utilities"
+    },
+    {
+      "id": "tx_009",
+      "type": "income",
+      "amount": 15000,
+      "date": "2025-10-10",
+      "desc": "Freelance Project",
+      "accountId": "acc_bank_001",
+      "category": "c2",
+      "categoryName": "Freelance"
+    },
+    {
+      "id": "tx_010",
+      "type": "expense",
+      "amount": 8999,
+      "date": "2025-10-12",
+      "desc": "Amazon - Headphones",
+      "accountId": "acc_cc_002",
+      "category": "c6",
+      "categoryName": "Shopping"
+    },
+    {
+      "id": "tx_011",
+      "type": "expense",
+      "amount": 650,
+      "date": "2025-10-14",
+      "desc": "Coffee dates",
+      "accountId": "acc_cash_001",
+      "category": "c4",
+      "categoryName": "Food & Dining"
+    },
+    {
+      "id": "tx_012",
+      "type": "transfer",
+      "amount": 5000,
+      "date": "2025-10-15",
+      "desc": "Lent to Rahul",
+      "accountId": "acc_bank_001",
+      "toAccountId": "acc_person_001",
+      "categoryName": "Transfer"
+    },
+    {
+      "id": "tx_013",
+      "type": "expense",
+      "amount": 1200,
+      "date": "2025-10-18",
+      "desc": "Movie tickets",
+      "accountId": "acc_cc_001",
+      "category": "c7",
+      "categoryName": "Entertainment"
+    },
+    {
+      "id": "tx_014",
+      "type": "expense",
+      "amount": 4500,
+      "date": "2025-10-20",
+      "desc": "Myntra shopping",
+      "accountId": "acc_cc_001",
+      "category": "c6",
+      "categoryName": "Shopping"
+    },
+    {
+      "id": "tx_015",
+      "type": "expense",
+      "amount": 800,
+      "date": "2025-10-22",
+      "desc": "Pharmacy",
+      "accountId": "acc_cash_001",
+      "category": "c10",
+      "categoryName": "Healthcare"
+    },
+    {
+      "id": "tx_016",
+      "type": "transfer",
+      "amount": 10000,
+      "date": "2025-10-25",
+      "desc": "Sent to Mom",
+      "accountId": "acc_bank_002",
+      "toAccountId": "acc_person_002",
+      "categoryName": "Transfer"
+    },
+    {
+      "id": "tx_017",
+      "type": "expense",
+      "amount": 2999,
+      "date": "2025-10-28",
+      "desc": "Udemy courses",
+      "accountId": "acc_cc_002",
+      "category": "c11",
+      "categoryName": "Education"
+    },
+    {
+      "id": "tx_101",
+      "type": "income",
+      "amount": 85000,
+      "date": "2025-11-01",
+      "desc": "November Salary",
+      "accountId": "acc_bank_002",
+      "category": "c1",
+      "categoryName": "Salary"
+    },
+    {
+      "id": "tx_102",
+      "type": "expense",
+      "amount": 25000,
+      "date": "2025-11-01",
+      "desc": "November Rent",
+      "accountId": "acc_bank_001",
+      "category": "c12",
+      "categoryName": "Rent"
+    },
+    {
+      "id": "tx_103",
+      "type": "expense",
+      "amount": 6200,
+      "date": "2025-11-03",
+      "desc": "Grocery - Zepto",
+      "accountId": "acc_cc_002",
+      "category": "c9",
+      "categoryName": "Groceries"
+    },
+    {
+      "id": "tx_104",
+      "type": "expense",
+      "amount": 1800,
+      "date": "2025-11-05",
+      "desc": "Ola rides",
+      "accountId": "acc_cash_001",
+      "category": "c5",
+      "categoryName": "Transport"
+    },
+    {
+      "id": "tx_105",
+      "type": "expense",
+      "amount": 1500,
+      "date": "2025-11-06",
+      "desc": "Dinner party",
+      "accountId": "acc_cc_001",
+      "category": "c4",
+      "categoryName": "Food & Dining"
+    },
+    {
+      "id": "tx_106",
+      "type": "income",
+      "amount": 20000,
+      "date": "2025-11-08",
+      "desc": "Freelance - Web Dev",
+      "accountId": "acc_bank_001",
+      "category": "c2",
+      "categoryName": "Freelance"
+    },
+    {
+      "id": "tx_107",
+      "type": "expense",
+      "amount": 15999,
+      "date": "2025-11-10",
+      "desc": "Flipkart - Monitor",
+      "accountId": "acc_cc_001",
+      "category": "c6",
+      "categoryName": "Shopping"
+    },
+    {
+      "id": "tx_108",
+      "type": "transfer",
+      "amount": 3000,
+      "date": "2025-11-12",
+      "desc": "Rahul repaid",
+      "accountId": "acc_person_001",
+      "toAccountId": "acc_bank_001",
+      "categoryName": "Transfer"
+    },
+    {
+      "id": "tx_109",
+      "type": "expense",
+      "amount": 2800,
+      "date": "2025-11-14",
+      "desc": "Gas + Internet",
+      "accountId": "acc_bank_001",
+      "category": "c8",
+      "categoryName": "Utilities"
+    },
+    {
+      "id": "tx_110",
+      "type": "expense",
+      "amount": 950,
+      "date": "2025-11-16",
+      "desc": "Swiggy orders",
+      "accountId": "acc_cc_002",
+      "category": "c4",
+      "categoryName": "Food & Dining"
+    },
+    {
+      "id": "tx_111",
+      "type": "expense",
+      "amount": 3500,
+      "date": "2025-11-18",
+      "desc": "Gym membership",
+      "accountId": "acc_bank_001",
+      "category": "c10",
+      "categoryName": "Healthcare"
+    },
+    {
+      "id": "tx_112",
+      "type": "expense",
+      "amount": 1299,
+      "date": "2025-11-20",
+      "desc": "Books - Amazon",
+      "accountId": "acc_cc_002",
+      "category": "c11",
+      "categoryName": "Education"
+    },
+    {
+      "id": "tx_113",
+      "type": "expense",
+      "amount": 5500,
+      "date": "2025-11-22",
+      "desc": "Weekend trip fuel",
+      "accountId": "acc_cash_001",
+      "category": "c5",
+      "categoryName": "Transport"
+    },
+    {
+      "id": "tx_114",
+      "type": "expense",
+      "amount": 2200,
+      "date": "2025-11-25",
+      "desc": "Concert tickets",
+      "accountId": "acc_cc_001",
+      "category": "c7",
+      "categoryName": "Entertainment"
+    },
+    {
+      "id": "tx_115",
+      "type": "transfer",
+      "amount": 50000,
+      "date": "2025-11-28",
+      "desc": "FD Deposit",
+      "accountId": "acc_bank_001",
+      "toAccountId": "inv_fd_001",
+      "categoryName": "Investment"
+    },
+    {
+      "id": "tx_201",
+      "type": "income",
+      "amount": 85000,
+      "date": "2025-12-01",
+      "desc": "December Salary",
+      "accountId": "acc_bank_002",
+      "category": "c1",
+      "categoryName": "Salary"
+    },
+    {
+      "id": "tx_202",
+      "type": "expense",
+      "amount": 25000,
+      "date": "2025-12-01",
+      "desc": "December Rent",
+      "accountId": "acc_bank_001",
+      "category": "c12",
+      "categoryName": "Rent"
+    },
+    {
+      "id": "tx_203",
+      "type": "transfer",
+      "amount": 5000,
+      "date": "2025-12-01",
+      "desc": "RD Deposit #1",
+      "accountId": "acc_bank_001",
+      "toAccountId": "rd_rd_001",
+      "categoryName": "Savings"
+    },
+    {
+      "id": "tx_204",
+      "type": "expense",
+      "amount": 7500,
+      "date": "2025-12-03",
+      "desc": "Grocery - Monthly",
+      "accountId": "acc_cc_002",
+      "category": "c9",
+      "categoryName": "Groceries"
+    },
+    {
+      "id": "tx_205",
+      "type": "expense",
+      "amount": 2100,
+      "date": "2025-12-05",
+      "desc": "Uber + Metro",
+      "accountId": "acc_cash_001",
+      "category": "c5",
+      "categoryName": "Transport"
+    },
+    {
+      "id": "tx_206",
+      "type": "expense",
+      "amount": 1800,
+      "date": "2025-12-07",
+      "desc": "Birthday dinner",
+      "accountId": "acc_cc_001",
+      "category": "c4",
+      "categoryName": "Food & Dining"
+    },
+    {
+      "id": "tx_207",
+      "type": "expense",
+      "amount": 4999,
+      "date": "2025-12-08",
+      "desc": "Christmas gifts",
+      "accountId": "acc_cc_001",
+      "category": "c6",
+      "categoryName": "Shopping"
+    },
+    {
+      "id": "tx_208",
+      "type": "income",
+      "amount": 12000,
+      "date": "2025-12-10",
+      "desc": "Freelance bonus",
+      "accountId": "acc_bank_001",
+      "category": "c2",
+      "categoryName": "Freelance"
+    },
+    {
+      "id": "tx_209",
+      "type": "expense",
+      "amount": 3200,
+      "date": "2025-12-12",
+      "desc": "Electricity + Water",
+      "accountId": "acc_bank_001",
+      "category": "c8",
+      "categoryName": "Utilities"
+    },
+    {
+      "id": "tx_210",
+      "type": "expense",
+      "amount": 1599,
+      "date": "2025-12-14",
+      "desc": "OTT subscriptions",
+      "accountId": "acc_cc_001",
+      "category": "c7",
+      "categoryName": "Entertainment"
+    },
+    {
+      "id": "tx_211",
+      "type": "expense",
+      "amount": 2500,
+      "date": "2025-12-15",
+      "desc": "Zomato party",
+      "accountId": "acc_cc_002",
+      "category": "c4",
+      "categoryName": "Food & Dining"
+    },
+    {
+      "id": "tx_212",
+      "type": "transfer",
+      "amount": 2000,
+      "date": "2025-12-16",
+      "desc": "Rahul repaid rest",
+      "accountId": "acc_person_001",
+      "toAccountId": "acc_bank_001",
+      "categoryName": "Transfer"
+    },
+    {
+      "id": "tx_213",
+      "type": "expense",
+      "amount": 8500,
+      "date": "2025-12-17",
+      "desc": "Winter jacket",
+      "accountId": "acc_cc_001",
+      "category": "c6",
+      "categoryName": "Shopping"
+    },
+    {
+      "id": "tx_214",
+      "type": "expense",
+      "amount": 1200,
+      "date": "2025-12-18",
+      "desc": "Doctor visit",
+      "accountId": "acc_cash_001",
+      "category": "c10",
+      "categoryName": "Healthcare"
+    },
+    {
+      "id": "tx_215",
+      "type": "expense",
+      "amount": 599,
+      "date": "2025-12-19",
+      "desc": "Kindle book",
+      "accountId": "acc_cc_002",
+      "category": "c11",
+      "categoryName": "Education"
+    },
+    {
+      "id": "tx_216",
+      "type": "transfer",
+      "amount": 100000,
+      "date": "2025-12-01",
+      "desc": "Car Loan Disbursement",
+      "accountId": "loan_car_001",
+      "toAccountId": "acc_bank_001",
+      "categoryName": "Loan Disbursement"
+    },
+    {
+      "id": "tx_217",
+      "type": "transfer",
+      "amount": 9500,
+      "date": "2025-12-05",
+      "desc": "Car Loan EMI #1",
+      "accountId": "acc_bank_001",
+      "toAccountId": "loan_car_001",
+      "categoryName": "Debt Repayment"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bud_001",
+      "name": "Food Budget",
+      "type": "expense",
+      "amount": 8000,
+      "category": "c4"
+    },
+    {
+      "id": "bud_002",
+      "name": "Shopping Limit",
+      "type": "expense",
+      "amount": 15000,
+      "category": "c6"
+    },
+    {
+      "id": "bud_003",
+      "name": "Entertainment",
+      "type": "expense",
+      "amount": 5000,
+      "category": "c7"
+    },
+    {
+      "id": "bud_004",
+      "name": "Emergency Fund",
+      "type": "investment",
+      "amount": 20000,
+      "category": "c3"
+    }
+  ],
+  "investments": [
+    {
+      "id": "inv_fd_001",
+      "name": "HDFC 1-Year FD",
+      "amount": 50000,
+      "rate": 7.25,
+      "startDate": "2025-11-28",
+      "maturityDate": "2026-11-28",
+      "accountId": "acc_bank_001"
+    },
+    {
+      "id": "inv_fd_002",
+      "name": "SBI Tax Saver FD",
+      "amount": 100000,
+      "rate": 6.8,
+      "startDate": "2025-04-01",
+      "maturityDate": "2030-04-01",
+      "accountId": "acc_bank_002"
+    }
+  ],
+  "loans": [
+    {
+      "id": "loan_car_001",
+      "name": "Car Loan - Maruti",
+      "amount": 100000,
+      "rate": 9.5,
+      "startDate": "2025-12-01",
+      "endDate": "2026-12-01",
+      "tenure": 12,
+      "accountId": "acc_bank_001",
+      "payments": [],
+      "autopay": {
+        "enabled": true,
+        "accountId": "acc_bank_001",
+        "day": 5
+      }
+    }
+  ],
+  "rds": [
+    {
+      "id": "rd_rd_001",
+      "name": "HDFC Monthly RD",
+      "accountId": "acc_bank_001",
+      "monthlyAmount": 5000,
+      "rate": 6.5,
+      "startDate": "2025-12-01",
+      "tenure": 12
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "currency": "INR",
+    "dateFormat": "dd/mm/yyyy"
+  }
+}
