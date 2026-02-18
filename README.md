@@ -140,5 +140,8 @@ You can also run Flow Accounting in a Docker container:
 
 *Flow Accounting is a project by Dyal.*
 
+ free accounting software, free accounting software for small business, free accounting software for laptop, free accounting software in india, free accounting course, free accounting software for pc, free accounting app, free personal accounting app, free accounting software for personal use, free accounting, free accounting 
+
+
 
 
